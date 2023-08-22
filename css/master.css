@@ -1,0 +1,602 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #333333;
+  line-height: normal; background-color:#41728e;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+div#sfondo {
+  width: 100%;
+    background-image: url(../immagini/background.jpg);
+  background-repeat: repeat-x;
+  background-color: #748d9a;
+}
+div#sfondo2 {
+  background-image: url(../immagini/background2.jpg);
+  background-repeat: repeat-x;
+  background-color: #748d9a;
+}
+
+div#sfondobianco {
+}
+
+div#contenitore {
+  margin: auto;
+  width: 955px;
+}
+
+div#logo {
+  float: left;
+  margin-top:5px;
+  width: 300px;
+}
+
+.riferimenti {
+  float: right;
+  padding-top: 20px;
+  height: 80px
+}
+
+div#header {
+
+}
+
+.prezzo {
+  color: #000
+}
+
+.prezzospeciale {
+  color: #FF0
+}
+
+.link {
+  color: #216097; text-decoration: none
+}
+.linkmed {
+  font-size: 16px;
+  text-decoration: none
+}
+
+.linkbig {
+  font-size: 20px;
+  text-decoration: none
+}
+
+a.linkbig {
+  font-size: 18px;
+  text-decoration: none
+}
+
+a:hover.linkbig {
+  font-size: 18px;
+  text-decoration: underline
+}
+
+.set2 {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.immaginezoom {
+  margin: 20px 20px 0 20px;
+  float: right
+}
+
+.testoezoom {
+  margin: 0 20px 0 20px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px
+}
+
+
+#cookieChoiceInfo {           
+  background-color: #000;    
+  font-size: 15px;
+  line-height:20px;          
+  color: #333;                
+  padding: 20px;             
+  opacity: .9;
+  
+  }
+
+#cookieChoiceInfo a{ color:#029fdd}
+
+#cookieInfoLink {                      
+  color: #E00;               
+  text-decoration: underline; 
+}
+#cookieInfoLink:hover {       
+  color: #F44;                
+  test-decoration:none;       
+}
+#cookieChoiceDismiss {        
+  background-color:#c7c932;    
+  color: #FFF;                
+  text-decoration: none;      
+  font-weight: 600;         
+  font-size: 16px;
+  padding: 3px 10px;        
+  border-radius:  3px;        
+}
+#cookieChoiceDismiss:hover { 
+  background-color: #a7bdc8;
+}
+
+
+   /* PRIVACY POLICY STYLE */
+  #privacy-content {  text-align:left;color:#707070;padding: 0;border: 0;letter-spacing: 0;display: block;text-transform: none;font-weight: normal; margin:auto}
+  #privacy-content h2 {font-size:1em; color:#7c5542; display:block; border-top:1px solid #afb03d; border-bottom:1px solid #afb03d; padding:20px 0;  font-weight:normal; margin-top:20px; font-weight:bold;}
+  #privacy-content h3{ font-size:22px; color:#7c5542; display:block; font-weight:normal; color:#fff; font-weight:bold; }
+  #privacy-content b{ font-size:22px; color:#707070; display:block; font-weight:normal; color:#fff   }
+  #privacy-content a{ color:#afb03d}
+  #privacy-content a:hover{ color:#ed008d}
+  #privacy-content table td { background-color:#eeebe4; border:2px solid #f8f6f2; padding:10px;}
+  #privacy-content .upper { background-color:#f6f4ef; border:2px solid #f8f6f2; padding:10px;}
+
+  
+
+
+
+/*----------------------------- end NAVIGAZIONE ORIZZONTALE -----------------------------*/
+
+div#cotenuto-sottopagine { clear:both;
+	width:973px; background-image:url(../immagini/cup.jpg); background-repeat:no-repeat; background-color:#d0d8db; background-position:top;
+}
+
+div#cotenuto-sottopagine-int { padding:40px 50px 50px 50px; background-image:url(../immagini/bottom.jpg); background-position:bottom; background-repeat:no-repeat;  text-align:justify
+}
+
+
+/*----------------------------- NAVIGAZIONE ORIZZONTALE2 -----------------------------*/
+div#navigazione_orizzontale2 {
+  font-size: 14px;
+  padding-top: 14px;
+  width: 600px;
+  text-align: right;
+  float: right;
+  text-transform: uppercase;
+  height:70px;
+}
+
+div#navigazione_orizzontale2 ul {
+  list-style-type: none;
+}
+
+div#navigazione_orizzontale2 li {
+  display: inline;
+}
+
+div#navigazione_orizzontale2 a {
+  text-decoration: none;
+    color: #4f4f4f;
+}
+
+div#navigazione_orizzontale2 a:hover {
+  text-decoration: none;
+    color: #7da586;
+}
+
+div#navigazione_orizzontale2  a#activelink {
+  text-decoration: none;
+  font-weight: bold;
+    color: #97b69e;
+}
+
+div#navigazione_orizzontale2 .barraspazio {
+  margin: 0 18px 0 18px;
+}
+
+
+.boxhp {display:block;position:absolute;  top:435px; z-index:9999; margin-left:30px }
+
+
+.box-hp-1 {
+	width:225px;
+	background-image:url(../immagini/boxhp1.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right:5px;
+	height:110px;
+}
+.box-hp-2 {
+	width:225px;
+	background-image:url(../immagini/boxhp2.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right:5px;
+	height:110px;
+}
+.box-hp-3 {
+	width:225px;
+	background-image:url(../immagini/boxhp3.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right:5px;
+	height:110px;
+}
+.box-hp-4 {
+	width:225px;
+	background-image:url(../immagini/boxhp4.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:110px;
+}
+
+.box-hp-int {
+	padding: 18px 0 18px 18px;
+	font-size:12px;
+	color:#aec1cb;
+	line-height:15px;
+}
+
+.box-hp-int a{ font-size:13px; font-family: 'swis721_th_btthin', serif;
+	color:#FFFFFF; text-decoration:none; letter-spacing:1px; text-transform:uppercase; padding-bottom:50px; 
+}
+.box-hp-int a:hover{
+	color:#f4e0ce;
+}
+
+.titolo_evidenziato {
+  background-color: #CCCCCC;
+  padding: 5px;
+  line-height: 20px;
+  margin-right: 5px;
+}
+
+.titolo_sezione {
+  font-weight: bold;
+}
+
+.linea {
+  border-bottom:1px solid #94a8b5; margin:5px 0 12px 0;
+}
+
+.div_rollover {
+  margin-right: 5px;
+  clear: both
+}
+
+.div_rollover a {
+  display: block;
+  background-color: #446d4d;
+  padding: 10px 10px 5px 10px;
+  color: #7eae89;
+  text-decoration: none
+}
+
+.div_rollover a:hover {
+  text-decoration: none;
+  background-color: #e5e5e5;
+  padding: 10px 10px 5px 10px;
+}
+
+.aligncenter {
+  text-align: center
+}
+/*---------------- Elenco a Galleria ----------------*/
+div#contenuto #thumbs {
+  margin: 15px 0 30px 0;
+}
+
+#thumbs .thumbsContenitore {
+  width: 186px; /*WIDTH THUMBS + padding e bordo di imgCornice*/
+  height: 220px; /*HEIGHT THUMBS + 35px per far stare 2 righe di testo*/
+  float: left;
+  margin: 0 5px 5px 0;
+  text-align: center;
+  overflow: hidden;
+  color: #FFF
+}
+
+#thumbs .imgCorniceConTesto {
+  width: 180px; /*WIDTH THUMBS*/
+  height: 135px; /*HEIGHT THUMBS*/
+  border: 1px #CCCCCC solid;
+  background-color: #F8F8F8;
+  padding: 2px;
+}
+
+#thumbs .imgCorniceSenzaTesto {
+  width: 180px; /*WIDTH THUMBS*/
+  height: 135px; /*HEIGHT THUMBS*/
+  border: 1px #CCCCCC solid;
+  background-color: #F8F8F8;
+  padding: 2px;
+  float: left;
+  margin: 0 15px 20px 15px;
+}
+
+#thumbs .imgContenitore {
+  width: 180px; /*WIDTH THUMBS*/
+  height: 135px; /*HEIGHT THUMBS*/
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#thumbs img {
+  width: 180px; /*WIDTH THUMBS*/
+}
+
+/*--------------------- Form ---------------------*/
+div#contenutoForm {
+  text-align: center;
+}
+
+fieldset {
+  width: 95%;
+  padding: 0 0 10px 0;
+  border: 1px solid #598562;
+  text-align: center;
+}
+
+fieldset legend {
+  color: #96c2a0;
+  padding: 10px;
+  text-align: left;
+}
+
+fieldset div {
+  clear: left;
+  text-align: left;
+}
+
+fieldset label {
+  float: left;
+  width: 20%;
+  padding: 3px 15px;
+  margin: 0 0 5px 0;
+  text-align: right;
+}
+
+fieldset .inputText {
+  width: 350px;
+  padding: 1px 3px;
+  margin: 0 0 10px 0;
+}
+
+fieldset .inputRadio {
+  margin: 0 0 0 50px;
+}
+
+#bottoni {
+  width: 95%;
+  padding-top: 20px;
+  text-align: right;
+}
+
+#bottoni .bottone {
+  width: 120px;
+  margin-left: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.floatdx {
+  float: right;
+}
+
+.floatsx {
+  float: left;
+}
+
+.margindx {
+  margin-right: 20px
+}
+
+.marginsx {
+  margin-left: 20px
+}
+
+#cyclewrap {
+  position: relative;
+  width:975px;
+  height: 388px;
+}
+
+.cycleimmagini {
+  width: 975px;
+  height:388px;
+  overflow: hidden;
+}
+
+div#contenuto {
+  margin-top: 20px;
+}
+
+.skype {
+  margin-left: 20px;
+} /*  display:none */
+.facebook {
+  margin-left: 3px;
+}
+
+.twitter {
+  margin-left: 3px;
+}
+
+.youtube {
+  margin-left: 3px;
+} /*  display:none */
+.titolo {
+  font-size: 20px;
+  margin-bottom: 10px;
+    color: #FFF
+}
+
+.foto {
+  border: 1px solid #3b5e43
+}
+
+
+
+.titolopagina {
+	color:#262a2e; font-family: 'swis721_th_btthin', serif; font-size:30px;
+}
+
+.titolopaginablu {
+	color:#5081ac; font-family: 'swis721_th_btthin', serif; font-size:30px; font-weight:normal;
+}
+
+.sottotitolopagina {
+	color:#262a2e; text-transform:uppercase; font-size:11px; letter-spacing:2px; font-family: 'swis721_th_btthin', serif; margin-top:3px;
+}
+
+.frasepoetica { font-style:italic; text-align:right   
+}
+
+
+
+.colonnasottopagina {
+  width:600px;
+  float: right;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.colonnasottopagina li{
+	margin-left:10px
+}
+
+
+.colonnasottopaginasm {
+  float: right;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+div#colonna01 {
+  width: 610px;
+  float: left;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+div#colonna02 {
+  width: 420px;
+  font-size: 14px;
+  float: left;
+  line-height: 22px;
+}
+
+div#colonna03 {
+  width: 300px;
+  float: right;
+  font-size: 28px;
+  line-height:30px;
+  	font-family: 'swis721_th_btthin', serif;
+
+}
+
+div#colonna033 {
+  width: 300px;
+  float: right;
+  font-size: 18px;
+  line-height:22px;
+  	font-family: 'swis721_th_btthin', serif; color:#FFF
+
+}
+
+div#colonna04 {
+  width: 600px;
+  float: right;
+}
+
+.testofont {
+  font-size: 24px; line-height: 24px;
+  	font-family: 'swis721_th_btthin', serif; color:#01161c; text-decoration:none;
+}
+a.testofont {
+  font-size: 24px;line-height: 24px;
+  	font-family: 'swis721_th_btthin', serif; color:#01161c; text-decoration:none;
+}
+
+a:hover.testofont {
+  font-size: 24px;line-height: 24px;
+  	font-family: 'swis721_th_btthin', serif; color:#01161c; text-decoration:none;
+}
+
+
+
+.titolipagine {
+  font-size: 28px;line-height: 24px;
+  	font-family: 'swis721_th_btthin', serif; color:#b2c1b5; border-bottom:1px solid #b2c1b5; margin-bottom:20px; padding-bottom:5px;
+}
+
+
+.linktesto{
+  font-size: 18px; text-decoration:none;line-height: 24px;
+  	font-family: 'swis721_th_btthin', serif; color:#b2c1b5;  margin-top:10px; padding-bottom:5px; margin-bottom:20px;
+}
+
+	   /* PRIVACY POLICY STYLE */
+  #privacy-content { font-size:14px; line-height:22px; text-align:left;color:#707070;padding: 0;border: 0;letter-spacing: 0;display: block;text-transform: none;font-weight: normal; margin:auto}
+  #privacy-content h2 { text-transform:uppercase; font-size:16px; letter-spacing:1px; color:#2d618e; display:block; border-top:1px solid #a7bdc8; border-bottom:1px solid #a7bdc8; padding:15px 0;  font-weight:normal; margin-top:20px; font-weight:bold; margin-bottom:15px;}
+  #privacy-content h3{ font-size:18px; color:#7c5542; display:block; font-weight:normal; color:#2d618e; font-weight:bold; line-height:2em; }
+  #privacy-content b{ font-size:18px; color:#707070; display:block; font-weight:normal; color:#2d618e; margin-top:20px;}
+  #privacy-content a{ color:#afb03d}
+  #privacy-content a:hover{ color:#ed008d}
+  #privacy-content table td { background-color:#eeebe4; border:2px solid #f8f6f2; padding:10px;}
+  #privacy-content .upper { background-color:#f6f4ef; border:2px solid #f8f6f2; padding:10px;}
+
+  
+  /* END PRIVACY POLICY STYLE */
+
+
+/*---------------------------------- PIEDE - FOOTER ---------------------------------*/
+div#piede {
+  width: 100%; color:#83adc5;
+  background-color: #41728e;
+  clear: both;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+div#piede_interno {
+  width: 955px;
+  margin: auto;
+  font-size:14px;
+  line-height:20px;
+  text-align:center;
+  padding-top:10px;
+}
+
+div#piede_interno a {
+  text-decoration: none;  color:#b4d5e7;
+}
+
+div#piede_interno a:hover {
+  text-decoration: underline; color:#b4d5e7;
+}
+
+div#piede_interno a:visited {
+  text-decoration: underline; color:#b4d5e7;
+}
